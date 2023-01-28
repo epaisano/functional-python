@@ -20,7 +20,11 @@ def evens(n):
     >>> evens(-1)
     []
     '''
-
+    return n%2 == 0
+    x = list(range(n+1)
+    x = filter(evens, x)
+    x = list(x)
+    print("x =",x )
 
 def threes(n):
     '''
